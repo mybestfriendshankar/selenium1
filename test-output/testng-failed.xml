@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com_hrms_lib2.WD_Testng_Excell">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tc001"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com_hrms_lib2.WD_Testng_Excell -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
